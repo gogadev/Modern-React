@@ -1,0 +1,46 @@
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 0.8rem auto;
+}
+
+.title {
+  font-size: 2.9rem;
+  letter-spacing: 10px;
+}
+
+.r {
+  width: 8%;
+  transform: translateY(0.3rem);
+}
+
+.m {
+  width: 10%;
+  transform: translateY(0.2rem);
+}
+
+.span {
+  margin-right: 0.7rem;
+}
+
+#logo {
+  width: 10%;
+  transform: translateY(-1rem);
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    letter-spacing: 1px;
+  }
+  .m {
+    width: 20%;
+  }
+  .r {
+    width: 15%;
+  }
+  #logo {
+    width: 18%;
+  }
+}

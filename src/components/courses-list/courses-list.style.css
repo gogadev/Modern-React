@@ -1,0 +1,111 @@
+.courses-list {
+  width: 80vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.list {
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  background: #f6f6f6;
+  width: 80vw;
+  border-bottom: 1px solid black;
+  padding-top: 0.4rem;
+}
+
+.info {
+  background: #f6f6f6;
+  width: 100%;
+  position: relative;
+}
+
+.course-title {
+  letter-spacing: 2px;
+}
+
+.author {
+  margin: 0.5rem auto;
+  letter-spacing: 1px;
+}
+
+.author-img {
+  width: 3%;
+  transform: translateY(0.4rem);
+}
+
+.rating {
+  letter-spacing: 2px;
+}
+
+.rating-img {
+  width: 4%;
+  transform: translateY(0.4rem);
+}
+
+.title-img {
+  width: 6%;
+  transform: translateY(0.6rem);
+}
+
+.link {
+  background: rgb(190, 190, 190);
+  width: 5%;
+  letter-spacing: 3px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 17.5%;
+  left: 95%;
+}
+
+.btn {
+  border: none;
+  border-bottom: 3px solid lightgrey;
+  width: 100%;
+  opacity: 0.8;
+  margin-top: 0.2rem;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  transition: all 1.5s ease;
+  outline: lightgrey;
+}
+
+.btn:hover {
+  background: white;
+  opacity: 0.5;
+}
+
+.delete-btn {
+  width: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+  .link {
+    display: grid;
+    position: relative;
+    left: 40%;
+    bottom: 0%;
+    width: 20%;
+    font-size: 0.9rem;
+    background: rgb(218, 216, 216);
+  }
+  .delete-btn {
+    width: 8%;
+  }
+  .title-img {
+    width: 13%;
+    transform: translateY(0.2rem);
+  }
+  .author-img,
+  .rating-img {
+    width: 8%;
+  }
+  .info {
+    padding: 0.3rem;
+  }
+  a {
+    margin-top: 0.3rem;
+  }
+}
